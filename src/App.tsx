@@ -190,7 +190,6 @@ const content = {
           desc: "Compliance with the EU Detergents Regulation (EC 648/2004) entails listing all ingredients, usage instructions, hazard symbols, and meeting biodegradability criteria. English (and local language as needed) labeling is mandatory."
         }
       ],
-      conclusion: "Packaging materials should be recyclable where possible, given increasing consumer focus on sustainability. GOLD CLEAN is advised to use sturdy plastic bottles (HDPE/PET) with clear branding, and to include multilingual labels (e.g., EN/AR). All claims (e.g., “biodegradable”, “eco-friendly”) must be verifiable to avoid regulatory issues."
     },
     tables: {
       title: "Comparative Tables",
@@ -412,7 +411,6 @@ const content = {
           desc: "الامتثال للائحة المنظفات في الاتحاد الأوروبي (EC 648/2004) يستلزم إدراج جميع المكونات، تعليمات الاستخدام، رموز الخطر، وتلبية معايير القابلية للتحلل الحيوي. وضع العلامات باللغة الإنجليزية (واللغة المحلية حسب الحاجة) إلزامي."
         }
       ],
-      conclusion: "يجب أن تكون مواد التعبئة والتغليف قابلة لإعادة التدوير حيثما أمكن، نظرًا لزيادة تركيز المستهلكين على الاستدامة. يُنصح جولد كلين باستخدام زجاجات بلاستيكية متينة (HDPE/PET) مع علامات تجارية واضحة، وتضمين ملصقات متعددة اللغات (مثل EN/AR). يجب أن تكون جميع الادعاءات (مثل 'قابل للتحلل الحيوي'، 'صديق للبيئة') قابلة للتحقق لتجنب المشاكل التنظيمية."
     },
     marketing: {
       title: "مواد التسويق وعرض الموزعين",
