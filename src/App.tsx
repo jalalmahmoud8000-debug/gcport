@@ -44,11 +44,8 @@ const content = {
         { label: "Factories", value: "Egypt*: Second Industrial Zone, Fayoum\nLibya*: Benghazi" },
         { label: "Key Markets", value: "Egypt (domestic) | Saudi Arabia | Libya | Europe*" },
         { label: "Quality Certifications", value: "ISO 9001 (Quality Management); GMP compliance (Good Manufacturing Practices)" },
-        { label: "Headquarters (Unverified)", value: "Not publicly specified" },
-        { label: "Legal Status", value: "Proprietary trading name (details not publicly available)" },
         { label: "Major Partners", value: "Distributors and retail chains in KSA, and commercial accounts (hotels, malls, gyms)" }
-      ],
-      note: "* Note: Details marked with (*) are based on company-provided information and lack independent public sources. Exact EU export destinations, factory capacities, and corporate address are not publicly disclosed."
+      ]
     },
     products: {
       title: "Products & Services",
@@ -69,8 +66,7 @@ const content = {
         { name: "Fabric Softener", app: "Softening and freshening laundry." },
         { name: "Car Wash & Care", app: "Exterior wash and interior upholstery cleaning." },
         { name: "Gym/Commercial Fragrances", app: "Long-lasting air fresheners for gyms, locker rooms, hotel lobbies." }
-      ],
-      note: "Note: Product branding and exact formulations are proprietary. Packaging design should follow target market regulations (see section on Packaging & Labeling)."
+      ]
     },
     facilities: {
       title: "Facilities & Operations",
@@ -90,8 +86,7 @@ const content = {
           title: "GMP (Good Manufacturing Practices)",
           desc: "Adherence to GMP means the company applies strict sanitation, traceability, and documentation protocols in its production. (In chemical and personal-care manufacturing, GMP certification is often required by large clients.)"
         }
-      ],
-      note: "Additional certifications (e.g., ISO 14001, occupational safety OHSAS) are not confirmed publicly. Compliance with environmental and safety standards is handled internally according to industry best practices."
+      ]
     },
     vision: {
       title: "Vision, Mission & Values",
@@ -237,8 +232,7 @@ const content = {
           ["Libya", "Local production covers domestic demand. Export to neighboring North African markets (Tunisia, etc.)."],
           ["Europe", "Selective exports to EU countries (retail and B2B). EU Detergents compliance ensures market entry."],
           ["Egypt", "Home market (launch in 2026). Planning full national coverage (using wholesalers across all governorates)."]
-        ],
-        note: "(\"Unknown\" entries indicate information not disclosed publicly.)"
+        ]
       }
     },
     timeline: {
@@ -292,11 +286,8 @@ const content = {
         { label: "المصانع", value: "مصر*: منطقة صناعية ثانية, محافظة الفيوم\nليبيا*: بنغازي" },
         { label: "الأسواق الرئيسية", value: "مصر (محلياً) | السعودية | ليبيا | أوروبا*" },
         { label: "شهادات الجودة", value: "ISO 9001 (إدارة الجودة)؛ وتطبيق ممارسات التصنيع الجيد (GMP)" },
-        { label: "المقر الرئيسي (غير موثق)", value: "غير محدد علناً" },
-        { label: "الشكل القانوني", value: "اسم تجاري مسجل (التفاصيل غير متاحة للجمهور)" },
         { label: "الشركاء الرئيسيون", value: "الموزعون وسلاسل التجزئة في السعودية، والحسابات التجارية (فنادق، مراكز تجارية، صالات رياضية)" }
-      ],
-      note: "* ملاحظة: التفاصيل المميزة بعلامة (*) تستند إلى معلومات مقدمة من الشركة ولا تتوفر مصادر عامة مستقلة لها. وجهات التصدير الدقيقة في أوروبا، السعات الإنتاجية للمصانع، وعنوان الشركة غير معلنة."
+      ]
     },
     products: {
       title: "المنتجات والخدمات",
@@ -317,8 +308,7 @@ const content = {
         { name: "منعم ملابس", app: "تنعيم وتعطير الغسيل." },
         { name: "منتجات غسل السيارات", app: "غسيل خارجي وتنظيف المفروشات الداخلية." },
         { name: "معطرات مخصصة لصالات رياضية", app: "معطرات جو تدوم طويلاً للصالات الرياضية وغرف تغيير الملابس وردهات الفنادق." }
-      ],
-      note: "ملاحظة: العلامات التجارية للمنتجات والتركيبات الدقيقة تعتبر ملكية خاصة. يجب أن يتبع تصميم العبوات لوائح السوق المستهدف (انظر قسم التعبئة والتغليف)."
+      ]
     },
     facilities: {
       title: "المصانع والعمليات",
@@ -338,8 +328,7 @@ const content = {
           title: "ممارسات التصنيع الجيد (GMP)",
           desc: "الالتزام بـ GMP يعني أن الشركة تطبق بروتوكولات صارمة للصرف الصحي والتتبع والتوثيق في إنتاجها. (في تصنيع المواد الكيميائية والعناية الشخصية، غالباً ما تكون شهادة GMP مطلوبة من قبل كبار العملاء.)"
         }
-      ],
-      note: "ملاحظة: الشهادات الإضافية (مثل ISO 14001، سلامة المهنة OHSAS) غير مؤكدة علنًا. يتم التعامل مع الامتثال للمعايير البيئية والسلامة داخليًا وفقًا لأفضل الممارسات في الصناعة."
+      ]
     },
     vision: {
       title: "الرؤية، الرسالة، والقيم",
@@ -485,8 +474,7 @@ const content = {
           ["ليبيا", "الإنتاج المحلي يغطي الطلب المحلي. التصدير إلى أسواق شمال إفريقيا المجاورة (تونس، إلخ)."],
           ["أوروبا", "صادرات انتقائية لدول الاتحاد الأوروبي (التجزئة و B2B). الامتثال للوائح المنظفات الأوروبية يضمن دخول السوق."],
           ["مصر", "السوق المحلي (إطلاق عام 2026). التخطيط لتغطية وطنية شاملة (باستخدام تجار الجملة في جميع المحافظات)."]
-        ],
-        note: "(تشير إدخالات \"غير معروف\" إلى معلومات لم يتم الإفصاح عنها علنًا)."
+        ]
       }
     },
     timeline: {
