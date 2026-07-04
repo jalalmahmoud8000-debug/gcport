@@ -112,8 +112,7 @@ const content = {
         { icon: MapPin, title: "Local Presence", desc: "Presence in Saudi and Libya via logistics centers/distributors shortens lead times in key markets." },
         { icon: Globe, title: "Market Coverage", desc: "Current distribution spans the entire value chain (wholesale, retail, hospitality); plans are in place to cover all Egyptian governorates through partnerships with local dealers." },
         { icon: Lightbulb, title: "Product Innovation", desc: "Continuous R&D (in collaboration with cosmetic and chemical experts) yields new variants (e.g., eco-friendly and antibacterial lines) – positioning GOLD CLEAN as forward-looking." }
-      ],
-      conclusion: "These strengths position the company well against both local producers and imported brands."
+      ]
     },
     targetMarkets: {
       title: "Target Markets & Segments",
@@ -192,25 +191,6 @@ const content = {
         }
       ],
       conclusion: "Packaging materials should be recyclable where possible, given increasing consumer focus on sustainability. GOLD CLEAN is advised to use sturdy plastic bottles (HDPE/PET) with clear branding, and to include multilingual labels (e.g., EN/AR). All claims (e.g., “biodegradable”, “eco-friendly”) must be verifiable to avoid regulatory issues."
-    },
-    marketing: {
-      title: "Marketing Materials & Distributor Pitch",
-      description: "Suggested promotional materials include:",
-      materials: [
-        { title: "Bilingual Company Brochure", desc: "An English/Arabic PDF highlighting products, certifications, and client testimonials (formatted like this profile)." },
-        { title: "Product Sheets", desc: "One-page spec sheets (EN/AR) for each product category, with usage instructions and safety data." },
-        { title: "Samples & Kits", desc: "Branded sample bottles of key products for prospective distributors/hotels." },
-        { title: "Digital Content", desc: "A multilingual website and social media showcasing applications (e.g., cleaning demos)." }
-      ],
-      pitchTitle: "One-Page Distributor Pitch",
-      pitchSubtitle: "(Bilingual) – summarizing company strengths, product range, and support program (e.g., training, marketing allowance). Example pitch bullet points:",
-      pitchPoints: [
-        "Partner with a certified manufacturer (ISO 9001 & GMP) – ensure quality you can trust.",
-        "Comprehensive product lineup (household to industrial) tailored for Middle East needs.",
-        "Proven export experience to KSA, Libya, Europe – ready to serve your market.",
-        "Dedicated support: technical training, merchandising materials, and fast logistics."
-      ],
-      conclusion: "Both English and Arabic versions of the pitch should be professionally laid out to appeal to MENA business partners and government tenders."
     },
     tables: {
       title: "Comparative Tables",
@@ -354,8 +334,7 @@ const content = {
         { icon: MapPin, title: "التواجد المحلي", desc: "التواجد في السعودية وليبيا عبر مراكز لوجستية/موزعين يقصر فترات التسليم في الأسواق الرئيسية." },
         { icon: Globe, title: "تغطية السوق", desc: "يمتد التوزيع الحالي ليشمل سلسلة القيمة بأكملها (الجملة، التجزئة، الضيافة)؛ وهناك خطط لتغطية جميع محافظات مصر من خلال الشراكات مع الوكلاء المحليين." },
         { icon: Lightbulb, title: "ابتكار المنتجات", desc: "البحث والتطوير المستمر (بالتعاون مع خبراء مستحضرات التجميل والكيمياء) ينتج متغيرات جديدة (مثل الخطوط الصديقة للبيئة والمضادة للبكتيريا) - مما يضع جولد كلين كشركة تتطلع للمستقبل." }
-      ],
-      conclusion: "تضع هذه النقاط القوة الشركة في موقع جيد أمام كل من المنتجين المحليين والعلامات التجارية المستوردة."
+      ]
     },
     targetMarkets: {
       title: "الأسواق المستهدفة والعملاء",
@@ -451,8 +430,7 @@ const content = {
         "مجموعة منتجات شاملة (منزلية إلى صناعية) مصممة خصيصًا لاحتياجات الشرق الأوسط.",
         "خبرة تصدير مثبتة إلى السعودية وليبيا وأوروبا - مستعدون لخدمة سوقك.",
         "دعم مخصص: تدريب فني، ومواد ترويجية، وخدمات لوجستية سريعة."
-      ],
-      conclusion: "يجب أن يتم تصميم النسختين الإنجليزية والعربية للعرض الترويجي بشكل احترافي لجذب شركاء الأعمال والمناقصات الحكومية في منطقة الشرق الأوسط وشمال أفريقيا."
+      ]
     },
     tables: {
       title: "جداول توضيحية",
@@ -874,28 +852,7 @@ export default function App() {
             </h3>
           </motion.div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <motion.div 
-              initial={{ opacity: 0, x: isRtl ? 20 : -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-              className="relative rounded-2xl overflow-hidden border border-white/10 group aspect-video lg:aspect-square object-cover"
-            >
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10" />
-              <img 
-                src="https://vxedsjxzpekozeyhwbgg.supabase.co/storage/v1/object/public/gcport/WhatsApp%20Image%202026-07-03%20at%2000.41.44%20(1).jpeg" 
-                alt="Manufacturing Facility" 
-                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
-              />
-              <div className="absolute bottom-6 left-6 right-6 z-20">
-                <p className="text-white font-medium text-lg drop-shadow-md flex items-center gap-2">
-                  <Factory className="w-5 h-5 text-[#D4AF37]" />
-                  {lang === 'en' ? 'Advanced Manufacturing Lines' : 'خطوط تصنيع متقدمة'}
-                </p>
-              </div>
-            </motion.div>
-            
+          <div className="grid lg:grid-cols-1 gap-12 items-center">
             <motion.div 
               initial={{ opacity: 0, x: isRtl ? -20 : 20 }}
               whileInView={{ opacity: 1, x: 0 }}
