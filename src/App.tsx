@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Globe, Droplets, ShieldCheck, Factory, Award, ArrowRight, ArrowLeft, Sparkles, Target, Lightbulb, Heart, TrendingUp, Coins, MapPin, Truck, Briefcase, ShoppingCart, MonitorSmartphone, Scale, Layers, Tag, PackageCheck, AlertCircle, Leaf, FileText, Smartphone, Megaphone, Presentation, Star, FileCheck, FlaskConical, Gift, Table, Calendar, Milestone } from 'lucide-react';
 import { motion } from 'motion/react';
+import { createClient } from '@supabase/supabase-js';
+
+const SUPABASE_URL = 'https://vxedsjxzpekozeyhwbgg.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ4ZWRzanh6cGVrb3pleWh3YmdnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODMxNzE4NTEsImV4cCI6MjA5ODc0Nzg1MX0.IUBTga3l0L-diSKRW45-m5O_a6Z6JHVjVwKlSKcyrwU';
+const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 const content = {
   en: {
@@ -505,8 +510,33 @@ type Lang = 'en' | 'ar';
 
 export default function App() {
   const [lang, setLang] = useState<Lang>('ar');
+  const [galleryImages, setGalleryImages] = useState<string[]>([]);
+
   const t = content[lang];
   const isRtl = lang === 'ar';
+
+  useEffect(() => {
+    async function fetchImages() {
+      try {
+        const { data, error } = await supabase.storage.from('gcport').list();
+        if (error) throw error;
+        
+        if (data && data.length > 0) {
+          // Filter for image files and construct full URLs
+          const imageUrls = data
+            .filter(file => file.name.match(/\.(jpeg|jpg|gif|png)$/i))
+            .map(file => supabase.storage.from('gcport').getPublicUrl(file.name).data.publicUrl);
+            
+          if (imageUrls.length > 0) {
+            setGalleryImages(imageUrls);
+          }
+        }
+      } catch (error) {
+        console.error('Error fetching images:', error);
+      }
+    }
+    fetchImages();
+  }, []);
 
   useEffect(() => {
     document.documentElement.dir = isRtl ? 'rtl' : 'ltr';
@@ -742,7 +772,7 @@ export default function App() {
             >
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent z-10" />
               <img 
-                src="/images/img-11.jpeg" 
+                src="https://vxedsjxzpekozeyhwbgg.supabase.co/storage/v1/object/public/gcport/WhatsApp%20Image%202026-07-03%20at%2002.56.31%20(2).jpeg" 
                 alt="Floor Freshener" 
                 className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
               />
@@ -806,11 +836,11 @@ export default function App() {
                 <Sparkles className="w-6 h-6 text-[#D4AF37]" />
              </h4>
              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                {[1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13].map((num) => (
-                  <div key={num} className="rounded-xl overflow-hidden border border-white/10 group aspect-square relative bg-neutral-900/50">
+                {galleryImages.map((imageUrl, index) => (
+                  <div key={index} className="rounded-xl overflow-hidden border border-white/10 group aspect-square relative bg-neutral-900/50">
                     <img 
-                      src={`/images/img-${num}.jpeg`} 
-                      alt={`Product ${num}`} 
+                      src={imageUrl} 
+                      alt={`Product ${index + 1}`} 
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
                       loading="lazy"
                     />
@@ -866,7 +896,7 @@ export default function App() {
             >
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10" />
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1000&auto=format&fit=crop" 
+                src="https://vxedsjxzpekozeyhwbgg.supabase.co/storage/v1/object/public/gcport/WhatsApp%20Image%202026-07-03%20at%2000.41.44%20(1).jpeg" 
                 alt="Manufacturing Facility" 
                 className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
               />
