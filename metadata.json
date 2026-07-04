@@ -1,0 +1,6 @@
+{
+  "name": "Gold Clean Portfolio",
+  "description": "Bilingual portfolio website for Gold Clean, a professional cleaning products manufacturer, featuring a dark and gold aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
