@@ -23,7 +23,7 @@ const content = {
     executiveSummary: {
       title: "Executive Summary",
       paragraphs: [
-        "GOLD CLEAN is a European–Saudi manufacturer of professional cleaning and care products, founded in 2017. The company operates factories in two locations – Egypt’s Second Industrial Zone (Fayoum) and Benghazi, Libya – and focuses on high-quality formulations for both household and commercial cleaning applications.",
+        "GOLD CLEAN is an American-Saudi-Egyptian manufacturer of professional cleaning and care products, founded in 2017. The company operates factories in three locations – Saudi Arabia (Khamis Mushait), Egypt (Fayoum), and Benghazi, Libya – and focuses on high-quality formulations for both household and commercial cleaning applications.",
         "Its flagship offering is a multi-purpose stain-removing cleaner, and the product portfolio includes floor cleaners, air fresheners, fabric softeners, disinfectants, car care products, and specialized fragrances for gyms and hotels.",
         "GOLD CLEAN holds ISO 9001 certification for quality management and adheres to Good Manufacturing Practices (GMP) to ensure product safety and consistency. The company exports to major markets including Saudi Arabia, Libya, and several countries in Europe.",
         "This profile provides an overview of GOLD CLEAN’s facts, products, certifications, strategy and market positioning in both English and Arabic."
@@ -40,8 +40,9 @@ const content = {
       facts: [
         { label: "Name", value: "GOLD CLEAN" },
         { label: "Founded", value: "2017" },
-        { label: "Corporate Identity", value: "European–Saudi" },
-        { label: "Factories", value: "Egypt*: Second Industrial Zone, Fayoum\nLibya*: Benghazi" },
+        { label: "Corporate Identity", value: "American-Saudi-Egyptian" },
+        { label: "Headquarters", value: "Riyadh, Saudi Arabia" },
+        { label: "Factories", value: "Saudi Arabia: Khamis Mushait\nEgypt: Fayoum\nLibya: Benghazi" },
         { label: "Key Markets", value: "Egypt (domestic) | Saudi Arabia | Libya | Europe*" },
         { label: "Quality Certifications", value: "ISO 9001 (Quality Management); GMP compliance (Good Manufacturing Practices)" },
         { label: "Major Partners", value: "Distributors and retail chains in KSA, and commercial accounts (hotels, malls, gyms)" }
@@ -83,8 +84,8 @@ const content = {
           desc: "Ensures a systematic approach to consistent product quality and continual improvement. This international standard underpins GOLD CLEAN’s quality assurance."
         },
         {
-          title: "GMP (Good Manufacturing Practices)",
-          desc: "Adherence to GMP means the company applies strict sanitation, traceability, and documentation protocols in its production. (In chemical and personal-care manufacturing, GMP certification is often required by large clients.)"
+          title: "American GMP (Good Manufacturing Practices)",
+          desc: "Adherence to American GMP means the company applies strict sanitation, traceability, and documentation protocols in its production. (In chemical and personal-care manufacturing, GMP certification is often required by large clients.)"
         }
       ]
     },
@@ -194,7 +195,7 @@ const content = {
     tables: {
       title: "Comparative Tables",
       factories: {
-        title: "Table 1: Factories & Certifications",
+        title: "Factories & Certifications",
         headers: ["Location / Certification", "Details"],
         rows: [
           ["Egypt – 2nd Industrial Zone, Fayoum", "Industrial production line (liquids/powders), in-house QC lab. (Exact address proprietary.)"],
@@ -204,13 +205,26 @@ const content = {
         ]
       },
       exportMarkets: {
-        title: "Table 2: Export Markets & Distribution",
+        title: "Export Markets & Distribution",
         headers: ["Region / Country", "Status"],
         rows: [
           ["Saudi Arabia", "Established presence: major retailer accounts and hotel chains. Ongoing expansion via local distributors."],
           ["Libya", "Local production covers domestic demand. Export to neighboring North African markets (Tunisia, etc.)."],
           ["Europe", "Selective exports to EU countries (retail and B2B). EU Detergents compliance ensures market entry."],
           ["Egypt", "Home market (launch in 2026). Planning full national coverage (using wholesalers across all governorates)."]
+        ]
+      },
+      priceList: {
+        title: "Price List",
+        headers: ["Product", "Price (SAR)"],
+        rows: [
+          ["Citrus (American)", "840"],
+          ["Citrus (Egyptian)", "750"],
+          ["GC Air Freshener (Gulf)", "750"],
+          ["AQ Air Freshener (Gulf)", "480"],
+          ["Flora Floor Cleaner (500ml)", "420"],
+          ["GC Fabric Softener (3L)", "620"],
+          ["GC Fabric Softener (1L)", "690"]
         ]
       }
     },
@@ -244,7 +258,7 @@ const content = {
     executiveSummary: {
       title: "الملخص التنفيذي",
       paragraphs: [
-        "شركة جولد كلين هي شركة مصنعة ذات ملكية أوروبية–سعودية متخصصة في منتجات التنظيف والعناية المحترفة، تأسست عام 2017. تمتلك الشركة مصانع في موقعين رئيسيين – في المنطقة الصناعية الثانية بمحافظة الفيوم (مصر) ومدينة بنغازي (ليبيا) – وترتكز في تقديم تركيبات عالية الجودة للاستخدامات المنزلية والتجارية.",
+        "شركة جولد كلين هي شركة مصنعة ذات ملكية أمريكية-سعودية-مصرية متخصصة في منتجات التنظيف والعناية المحترفة، تأسست عام 2017. تمتلك الشركة مصانع في ثلاثة مواقع رئيسية – في المملكة العربية السعودية (خميس مشيط)، ومصر (محافظة الفيوم)، وليبيا (مدينة بنغازي) – وترتكز في تقديم تركيبات عالية الجودة للاستخدامات المنزلية والتجارية.",
         "المنتج الرئيسي للشركة هو منظف متعدد الاستخدامات لإزالة البقع، وتشمل محفظتها من المنتجات منظفات الأرضيات، معطرات الجو، منعمات الملابس، المطهرات، منتجات العناية بالسيارات، ومعطرات متخصصة لصالات الرياضة والفنادق.",
         "حصلت جولد كلين على شهادة ISO 9001 لنظام إدارة الجودة وتطبق ممارسات التصنيع الجيد GMP لضمان سلامة المنتجات واتساقها. تصدر الشركة منتجاتها إلى أسواق رئيسية منها المملكة العربية السعودية وليبيا وعدد من دول أوروبا.",
         "تقدم هذه الوثيقة عرضًا شاملاً عن حقائق الشركة، ومنتجاتها، وشهاداتها، واستراتيجيتها التسويقية باللغتين الإنجليزية والعربية."
@@ -261,8 +275,9 @@ const content = {
       facts: [
         { label: "اسم الشركة", value: "جولد كلين" },
         { label: "سنة التأسيس", value: "2017" },
-        { label: "هوية الشركة", value: "شركة أوروبية-سعودية" },
-        { label: "المصانع", value: "مصر*: منطقة صناعية ثانية, محافظة الفيوم\nليبيا*: بنغازي" },
+        { label: "هوية الشركة", value: "شركة أمريكية-سعودية-مصرية" },
+        { label: "المقر الرئيسي", value: "الرياض، المملكة العربية السعودية" },
+        { label: "المصانع", value: "السعودية: خميس مشيط\nمصر: الفيوم\nليبya: بنغازي" },
         { label: "الأسواق الرئيسية", value: "مصر (محلياً) | السعودية | ليبيا | أوروبا*" },
         { label: "شهادات الجودة", value: "ISO 9001 (إدارة الجودة)؛ وتطبيق ممارسات التصنيع الجيد (GMP)" },
         { label: "الشركاء الرئيسيون", value: "الموزعون وسلاسل التجزئة في السعودية، والحسابات التجارية (فنادق، مراكز تجارية، صالات رياضية)" }
@@ -304,8 +319,8 @@ const content = {
           desc: "تضمن نهجًا منهجيًا لجودة المنتج المتسقة والتحسين المستمر. يعزز هذا المعيار الدولي ضمان الجودة لدى جولد كلين."
         },
         {
-          title: "ممارسات التصنيع الجيد (GMP)",
-          desc: "الالتزام بـ GMP يعني أن الشركة تطبق بروتوكولات صارمة للصرف الصحي والتتبع والتوثيق في إنتاجها. (في تصنيع المواد الكيميائية والعناية الشخصية، غالباً ما تكون شهادة GMP مطلوبة من قبل كبار العملاء.)"
+          title: "ممارسات التصنيع الجيد الأمريكية (American GMP)",
+          desc: "الالتزام بـ American GMP يعني أن الشركة تطبق بروتوكولات صارمة للصرف الصحي والتتبع والتوثيق في إنتاجها. (في تصنيع المواد الكيميائية والعناية الشخصية، غالباً ما تكون شهادة GMP مطلوبة من قبل كبار العملاء.)"
         }
       ]
     },
@@ -433,7 +448,7 @@ const content = {
     tables: {
       title: "جداول توضيحية",
       factories: {
-        title: "الجدول 1: المصانع والشهادات",
+        title: "المصانع والشهادات",
         headers: ["الموقع / الشهادة", "تفاصيل"],
         rows: [
           ["مصر - المنطقة الصناعية الثانية، الفيوم", "خط إنتاج صناعي (سوائل/مساحيق)، مختبر داخلي لمراقبة الجودة. (العنوان الدقيق سري)."],
@@ -443,13 +458,26 @@ const content = {
         ]
       },
       exportMarkets: {
-        title: "الجدول 2: الأسواق التصديرية والتوزيع",
+        title: "الأسواق التصديرية والتوزيع",
         headers: ["المنطقة / البلد", "الحالة"],
         rows: [
           ["السعودية", "حضور راسخ: حسابات تجار التجزئة الكبرى وسلاسل الفنادق. توسع مستمر عبر الموزعين المحليين."],
           ["ليبيا", "الإنتاج المحلي يغطي الطلب المحلي. التصدير إلى أسواق شمال إفريقيا المجاورة (تونس، إلخ)."],
           ["أوروبا", "صادرات انتقائية لدول الاتحاد الأوروبي (التجزئة و B2B). الامتثال للوائح المنظفات الأوروبية يضمن دخول السوق."],
           ["مصر", "السوق المحلي (إطلاق عام 2026). التخطيط لتغطية وطنية شاملة (باستخدام تجار الجملة في جميع المحافظات)."]
+        ]
+      },
+      priceList: {
+        title: "قائمة الأسعار",
+        headers: ["المنتج", "السعر (ريال)"],
+        rows: [
+          ["سيترس (أمريكي)", "840"],
+          ["سيترس (مصري)", "750"],
+          ["معطر GC (خليجي)", "750"],
+          ["معطر AQ (خليجي)", "480"],
+          ["معطر أرضيات فلورا (500 مل)", "420"],
+          ["منعم ملابس GC (3 لتر)", "620"],
+          ["منعم ملابس GC (1 لتر)", "690"]
         ]
       }
     },
@@ -905,6 +933,16 @@ export default function App() {
                 <p className="text-neutral-400 leading-relaxed relative z-10">{item.desc}</p>
               </motion.div>
             ))}
+          </div>
+          <div className="text-center">
+            <a 
+              href="/ISO_GMB.pdf" 
+              download="ISO_GMB_Certificates.pdf"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-[#D4AF37] text-black font-bold rounded-full hover:bg-[#bfa030] transition-all"
+            >
+              <FileText className="w-5 h-5" />
+              {lang === 'en' ? 'Download Certificates (PDF)' : 'تحميل الشهادات (PDF)'}
+            </a>
           </div>
 
           <motion.div 
@@ -1385,7 +1423,37 @@ export default function App() {
                    </tbody>
                  </table>
                </div>
-               <p className="text-sm text-neutral-500 italic px-6">{t.tables.exportMarkets.note}</p>
+            </motion.div>
+
+            {/* Table 3: Price List */}
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+            >
+               <h4 className="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                  <Table className="w-6 h-6 text-[#D4AF37]" />
+                  {t.tables.priceList.title}
+               </h4>
+               <div className="overflow-x-auto">
+                 <table className="w-full text-left border-collapse">
+                   <thead>
+                     <tr className="border-b border-white/10 bg-neutral-900/50">
+                       <th className="py-4 px-6 font-semibold text-[#D4AF37] whitespace-nowrap">{t.tables.priceList.headers[0]}</th>
+                       <th className="py-4 px-6 font-semibold text-[#D4AF37]">{t.tables.priceList.headers[1]}</th>
+                     </tr>
+                   </thead>
+                   <tbody className="divide-y divide-white/5">
+                     {t.tables.priceList.rows.map((row, i) => (
+                       <tr key={i} className="hover:bg-neutral-900/30 transition-colors">
+                         <td className="py-4 px-6 text-white font-medium align-top whitespace-nowrap">{row[0]}</td>
+                         <td className="py-4 px-6 text-neutral-400 align-top">{row[1]}</td>
+                       </tr>
+                     ))}
+                   </tbody>
+                 </table>
+               </div>
             </motion.div>
           </div>
         </div>
