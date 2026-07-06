@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
-    base: '/portfolio/', // 👈 تم التعديل هنا لتتوافق مع مسار Vercel
+    base: '/gcport/', // 👈 تم التعديل هنا لتتوافق مع مسار Vercel
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
