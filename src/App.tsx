@@ -25,13 +25,13 @@ const content = {
       paragraphs: [
         "GOLD CLEAN is an American-Saudi-Egyptian manufacturer of professional cleaning and care products, founded in 2017. The company operates factories in three locations – Saudi Arabia (Khamis Mushait), Egypt (Fayoum), and Benghazi, Libya – and focuses on high-quality formulations for both household and commercial cleaning applications.",
         "Its flagship offering is a multi-purpose stain-removing cleaner, and the product portfolio includes floor cleaners, air fresheners, fabric softeners, disinfectants, car care products, and specialized fragrances for gyms and hotels.",
-        "GOLD CLEAN holds ISO 9001 certification for quality management and adheres to Good Manufacturing Practices (GMP) to ensure product safety and consistency. The company exports to major markets including Saudi Arabia, Libya, and several countries in Europe.",
+        "GOLD CLEAN holds ISO 9001 certification for quality management and adheres to American Quality Safety Standards to ensure product safety and consistency. The company exports to major markets including Saudi Arabia, Libya, and several countries in Europe.",
         "This profile provides an overview of GOLD CLEAN’s facts, products, certifications, strategy and market positioning in both English and Arabic."
       ],
       features: [
         { icon: Factory, title: "Dual Manufacturing", desc: "Factories in Egypt & Libya" },
         { icon: Award, title: "ISO 9001 Certified", desc: "Quality management systems" },
-        { icon: ShieldCheck, title: "GMP Standards", desc: "Good Manufacturing Practices" },
+        { icon: ShieldCheck, title: "AQSS", desc: "American Quality Safety Standards" },
         { icon: Droplets, title: "Diverse Portfolio", desc: "Household & commercial solutions" },
       ]
     },
@@ -44,7 +44,7 @@ const content = {
         { label: "Headquarters", value: "Riyadh, Saudi Arabia" },
         { label: "Factories", value: "Saudi Arabia: Khamis Mushait\nEgypt: Fayoum\nLibya: Benghazi" },
         { label: "Key Markets", value: "Egypt (domestic) | Saudi Arabia | Libya | Europe*" },
-        { label: "Quality Certifications", value: "ISO 9001 (Quality Management); GMP compliance (Good Manufacturing Practices)" },
+        { label: "Quality Certifications", value: "ISO 9001 (Quality Management); American Quality Safety Standards" },
         { label: "Major Partners", value: "Distributors and retail chains in KSA, and commercial accounts (hotels, malls, gyms)" }
       ]
     },
@@ -73,7 +73,7 @@ const content = {
       title: "Facilities & Operations",
       paragraphs: [
         "GOLD CLEAN’s manufacturing footprint spans two countries: the Egyptian facility in the Second Industrial Zone (Fayoum) serves the local and regional markets, while the Benghazi factory in Libya caters to North Africa and nearby regions. The Libya plant is strategically positioned to supply local demand and re-export to nearby African markets. Both sites employ automated mixing lines for liquids and powders, with separate filling and packaging sections.",
-        "Quality control and R&D laboratories are (expected to be) co-located at the Egyptian site (details confidential). All raw materials (surfactants, enzymes, fragrances) are sourced from certified suppliers. The production lines conform to both ISO 9001 and GMP standards, ensuring consistent product quality. Process controls include batch record-keeping, in-process testing of viscosity and pH, and final product microbiological checks."
+        "Quality control and R&D laboratories are (expected to be) co-located at the Egyptian site (details confidential). All raw materials (surfactants, enzymes, fragrances) are sourced from certified suppliers. The production lines conform to both ISO 9001 and American Quality Safety Standards, ensuring consistent product quality. Process controls include batch record-keeping, in-process testing of viscosity and pH, and final product microbiological checks."
       ]
     },
     certifications: {
@@ -84,8 +84,8 @@ const content = {
           desc: "Ensures a systematic approach to consistent product quality and continual improvement. This international standard underpins GOLD CLEAN’s quality assurance."
         },
         {
-          title: "American GMP (Good Manufacturing Practices)",
-          desc: "Adherence to American GMP means the company applies strict sanitation, traceability, and documentation protocols in its production. (In chemical and personal-care manufacturing, GMP certification is often required by large clients.)"
+          title: "American Quality Safety Standards",
+          desc: "Adherence to American Quality Safety Standards means the company applies strict sanitation, traceability, and documentation protocols in its production. (In chemical and personal-care manufacturing, this certification is often required by large clients.)"
         }
       ]
     },
@@ -97,7 +97,7 @@ const content = {
       },
       mission: {
         title: "Mission",
-        desc: "To develop and manufacture cleaning solutions that deliver superior cleaning efficacy and safety. We commit to innovation in formulation and packaging, meeting international standards (ISO/GMP) and satisfying customer needs. GOLD CLEAN strives to build lasting partnerships with distributors and clients by offering reliability, technical support, and value-added service."
+        desc: "To develop and manufacture cleaning solutions that deliver superior cleaning efficacy and safety. We commit to innovation in formulation and packaging, meeting international standards (ISO & American Quality Safety Standards) and satisfying customer needs. GOLD CLEAN strives to build lasting partnerships with distributors and clients by offering reliability, technical support, and value-added service."
       },
       values: {
         title: "Values",
@@ -108,7 +108,7 @@ const content = {
       title: "USP & Competitive Advantage",
       description: "GOLD CLEAN differentiates itself through its integrated manufacturer-distributor model. By formulating products in-house while also managing distribution, the company can tailor solutions rapidly to client needs. As noted by industry peers, having an in-house formulation capability helps “develop products to suit specific needs,” speeding time-to-market for customers. Other competitive strengths include:",
       items: [
-        { icon: ShieldCheck, title: "Quality & Compliance", desc: "Proven ISO 9001 system and GMP practices attract institutional buyers (hotels, hospitals) requiring certified suppliers." },
+        { icon: ShieldCheck, title: "Quality & Compliance", desc: "Proven ISO 9001 system and American Quality Safety Standards attract institutional buyers (hotels, hospitals) requiring certified suppliers." },
         { icon: Coins, title: "Cost-Effectiveness", desc: "Lean manufacturing and regional factories help keep prices competitive (no premium for European import)." },
         { icon: MapPin, title: "Local Presence", desc: "Presence in Saudi and Libya via logistics centers/distributors shortens lead times in key markets." },
         { icon: Globe, title: "Market Coverage", desc: "Current distribution spans the entire value chain (wholesale, retail, hospitality); plans are in place to cover all Egyptian governorates through partnerships with local dealers." },
@@ -260,13 +260,13 @@ const content = {
       paragraphs: [
         "شركة جولد كلين هي شركة مصنعة ذات ملكية أمريكية-سعودية-مصرية متخصصة في منتجات التنظيف والعناية المحترفة، تأسست عام 2017. تمتلك الشركة مصانع في ثلاثة مواقع رئيسية – في المملكة العربية السعودية (خميس مشيط)، ومصر (محافظة الفيوم)، وليبيا (مدينة بنغازي) – وترتكز في تقديم تركيبات عالية الجودة للاستخدامات المنزلية والتجارية.",
         "المنتج الرئيسي للشركة هو منظف متعدد الاستخدامات لإزالة البقع، وتشمل محفظتها من المنتجات منظفات الأرضيات، معطرات الجو، منعمات الملابس، المطهرات، منتجات العناية بالسيارات، ومعطرات متخصصة لصالات الرياضة والفنادق.",
-        "حصلت جولد كلين على شهادة ISO 9001 لنظام إدارة الجودة وتطبق ممارسات التصنيع الجيد GMP لضمان سلامة المنتجات واتساقها. تصدر الشركة منتجاتها إلى أسواق رئيسية منها المملكة العربية السعودية وليبيا وعدد من دول أوروبا.",
+        "حصلت جولد كلين على شهادة ISO 9001 لنظام إدارة الجودة وتطبق المعايير الأمريكية لسلامة الجودة لضمان سلامة المنتجات واتساقها. تصدر الشركة منتجاتها إلى أسواق رئيسية منها المملكة العربية السعودية وليبيا وعدد من دول أوروبا.",
         "تقدم هذه الوثيقة عرضًا شاملاً عن حقائق الشركة، ومنتجاتها، وشهاداتها، واستراتيجيتها التسويقية باللغتين الإنجليزية والعربية."
       ],
       features: [
         { icon: Factory, title: "تصنيع مزدوج", desc: "مصانع في مصر وليبيا" },
         { icon: Award, title: "شهادة ISO 9001", desc: "أنظمة إدارة الجودة" },
-        { icon: ShieldCheck, title: "معايير GMP", desc: "ممارسات التصنيع الجيد" },
+        { icon: ShieldCheck, title: "المعايير الأمريكية لسلامة الجودة", desc: "المعايير الأمريكية لسلامة الجودة" },
         { icon: Droplets, title: "محفظة متنوعة", desc: "حلول منزلية وتجارية" },
       ]
     },
@@ -279,7 +279,7 @@ const content = {
         { label: "المقر الرئيسي", value: "الرياض، المملكة العربية السعودية" },
         { label: "المصانع", value: "السعودية: خميس مشيط\nمصر: الفيوم\nليبya: بنغازي" },
         { label: "الأسواق الرئيسية", value: "مصر (محلياً) | السعودية | ليبيا | أوروبا*" },
-        { label: "شهادات الجودة", value: "ISO 9001 (إدارة الجودة)؛ وتطبيق ممارسات التصنيع الجيد (GMP)" },
+        { label: "شهادات الجودة", value: "ISO 9001 (إدارة الجودة)؛ وتطبيق المعايير الأمريكية لسلامة الجودة" },
         { label: "الشركاء الرئيسيون", value: "الموزعون وسلاسل التجزئة في السعودية، والحسابات التجارية (فنادق، مراكز تجارية، صالات رياضية)" }
       ]
     },
@@ -319,8 +319,8 @@ const content = {
           desc: "تضمن نهجًا منهجيًا لجودة المنتج المتسقة والتحسين المستمر. يعزز هذا المعيار الدولي ضمان الجودة لدى جولد كلين."
         },
         {
-          title: "ممارسات التصنيع الجيد الأمريكية (American GMP)",
-          desc: "الالتزام بـ American GMP يعني أن الشركة تطبق بروتوكولات صارمة للصرف الصحي والتتبع والتوثيق في إنتاجها. (في تصنيع المواد الكيميائية والعناية الشخصية، غالباً ما تكون شهادة GMP مطلوبة من قبل كبار العملاء.)"
+          title: "المعايير الأمريكية لسلامة الجودة",
+          desc: "الالتزام بـ المعايير الأمريكية لسلامة الجودة يعني أن الشركة تطبق بروتوكولات صارمة للصرف الصحي والتتبع والتوثيق في إنتاجها. (في تصنيع المواد الكيميائية والعناية الشخصية، غالباً ما تكون هذه الشهادة مطلوبة من قبل كبار العملاء.)"
         }
       ]
     },
@@ -332,7 +332,7 @@ const content = {
       },
       mission: {
         title: "الرسالة",
-        desc: "تطوير وتصنيع حلول تنظيف توفر فعالية وسلامة فائقة. نحن نلتزم بالابتكار في التركيبات والتعبئة، وتلبية المعايير الدولية (ISO/GMP) واحتياجات العملاء. تسعى جولد كلين لبناء شراكات دائمة مع الموزعين والعملاء من خلال تقديم الموثوقية والدعم الفني والخدمات ذات القيمة المضافة."
+        desc: "تطوير وتصنيع حلول تنظيف توفر فعالية وسلامة فائقة. نحن نلتزم بالابتكار في التركيبات والتعبئة، وتلبية المعايير الدولية (ISO والمعايير الأمريكية لسلامة الجودة) واحتياجات العملاء. تسعى جولد كلين لبناء شراكات دائمة مع الموزعين والعملاء من خلال تقديم الموثوقية والدعم الفني والخدمات ذات القيمة المضافة."
       },
       values: {
         title: "القيم",
@@ -343,7 +343,7 @@ const content = {
       title: "المزايا التنافسية والعوامل الفريدة",
       description: 'تميز جولد كلين نفسها من خلال نموذجها المتكامل كشركة مصنعة وموزعة. من خلال تركيب المنتجات داخليًا وإدارة التوزيع أيضًا، يمكن للشركة تصميم الحلول بسرعة لتلبية احتياجات العملاء. وكما يلاحظ الخبراء في هذا المجال، فإن امتلاك قدرة صياغة داخلية يساعد في "تطوير منتجات تناسب احتياجات محددة"، مما يسرع وقت طرحها في السوق للعملاء. تشمل نقاط القوة التنافسية الأخرى ما يلي:',
       items: [
-        { icon: ShieldCheck, title: "الجودة والامتثال", desc: "نظام ISO 9001 الموثوق وممارسات التصنيع الجيد (GMP) تجذب المشترين المؤسسيين (الفنادق والمستشفيات) الذين يطلبون موردين معتمدين." },
+        { icon: ShieldCheck, title: "الجودة والامتثال", desc: "نظام ISO 9001 الموثوق والمعايير الأمريكية لسلامة الجودة تجذب المشترين المؤسسيين (الفنادق والمستشفيات) الذين يطلبون موردين معتمدين." },
         { icon: Coins, title: "فعالية التكلفة", desc: "التصنيع المرن والمصانع الإقليمية تساعد في الحفاظ على أسعار تنافسية (بدون تكلفة إضافية للاستيراد الأوروبي)." },
         { icon: MapPin, title: "التواجد المحلي", desc: "التواجد في السعودية وليبيا عبر مراكز لوجستية/موزعين يقصر فترات التسليم في الأسواق الرئيسية." },
         { icon: Globe, title: "تغطية السوق", desc: "يمتد التوزيع الحالي ليشمل سلسلة القيمة بأكملها (الجملة، التجزئة، الضيافة)؛ وهناك خطط لتغطية جميع محافظات مصر من خلال الشراكات مع الوكلاء المحليين." },
@@ -439,7 +439,7 @@ const content = {
       pitchTitle: "عرض ترويجي للموزعين (صفحة واحدة)",
       pitchSubtitle: "(ثنائي اللغة) - يلخص نقاط قوة الشركة، ومجموعة المنتجات، وبرنامج الدعم (مثل التدريب، بدل التسويق). نقاط رئيسية مقترحة للعرض:",
       pitchPoints: [
-        "كن شريكًا لشركة مصنعة معتمدة (ISO 9001 و GMP) - لضمان جودة يمكنك الوثوق بها.",
+        "كن شريكًا لشركة مصنعة معتمدة (ISO 9001 والمعايير الأمريكية لسلامة الجودة) - لضمان جودة يمكنك الوثوق بها.",
         "مجموعة منتجات شاملة (منزلية إلى صناعية) مصممة خصيصًا لاحتياجات الشرق الأوسط.",
         "خبرة تصدير مثبتة إلى السعودية وليبيا وأوروبا - مستعدون لخدمة سوقك.",
         "دعم مخصص: تدريب فني، ومواد ترويجية، وخدمات لوجستية سريعة."
@@ -454,7 +454,7 @@ const content = {
           ["مصر - المنطقة الصناعية الثانية، الفيوم", "خط إنتاج صناعي (سوائل/مساحيق)، مختبر داخلي لمراقبة الجودة. (العنوان الدقيق سري)."],
           ["ليبيا - المنطقة الصناعية ببنغازي", "خطوط تعبئة وتغليف لسوق شمال إفريقيا. (التفاصيل سرية)."],
           ["ISO 9001", "نظام إدارة الجودة (إطار عمل للاتساق)."],
-          ["GMP", "ممارسات التصنيع الجيد - بروتوكولات إنتاج ونظافة صارمة (تتوافق مع المعايير الكيميائية/الصيدلانية)."]
+          ["المعايير الأمريكية", "المعايير الأمريكية لسلامة الجودة - بروتوكولات إنتاج ونظافة صارمة (تتوافق مع المعايير الكيميائية/الصيدلانية)."]
         ]
       },
       exportMarkets: {
@@ -486,7 +486,7 @@ const content = {
       description: "يوضح هذا المخطط الزمني المعالم (الفعلية والمخطط لها) لنمو جولد كلين. يسلط الضوء على التأسيس، والشهادات، ودخول الأسواق، والرؤية المستقبلية.",
       events: [
         { year: "التأسيس", title: "تأسيس الشركة", desc: "تأسيس خطوط الإنتاج في الفيوم (مصر) وبنغازي (ليبيا)." },
-        { year: "الشهادات", title: "الجودة والمعايير", desc: "الحصول على شهادات ISO 9001 و GMP، لضمان الامتثال الدولي." },
+        { year: "الشهادات", title: "الجودة والمعايير", desc: "الحصول على شهادات ISO 9001 والمعايير الأمريكية لسلامة الجودة، لضمان الامتثال الدولي." },
         { year: "التوسع", title: "الأسواق الإقليمية", desc: "التصدير الناجح إلى المملكة العربية السعودية، وليبيا، والأسواق الأوروبية." },
         { year: "2026", title: "إطلاق السوق المصري", desc: "التخطيط لتغطية وطنية شاملة عبر جميع المحافظات المصرية." },
         { year: "2030", title: "الرؤية المستقبلية", desc: "الريادة في منطقة الشرق الأوسط وشمال إفريقيا في حلول التنظيف المستدامة وعالية الجودة." }
