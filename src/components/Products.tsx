@@ -161,10 +161,10 @@ export default function Products({ lang, t, isRtl, galleryImages }: ProductsProp
              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {galleryImages.map((imageUrl, index) => (
                   <div key={index} className="rounded-xl overflow-hidden border border-white/10 group aspect-square relative bg-neutral-900/50">
-                    <img 
-                      src={imageUrl} 
-                      alt={`Product ${index + 1}`} 
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                    <img
+                      src={imageUrl}
+                      alt={`Product ${index + 1}`}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-[2px]">
@@ -178,20 +178,6 @@ export default function Products({ lang, t, isRtl, galleryImages }: ProductsProp
           </motion.div>
         )}
 
-        {/* الملاحظة التوضيحية لأسفل القسم */}
-        {t.products.note && (
-          <motion.div 
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="mt-12 text-center"
-          >
-            <p className="text-neutral-500 text-sm italic bg-neutral-900/20 py-3 px-6 rounded-full inline-block border border-white/5">
-              {t.products.note}
-            </p>
-          </motion.div>
-        )}
         
       </div>
     </section>
