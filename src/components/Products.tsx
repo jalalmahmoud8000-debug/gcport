@@ -92,7 +92,7 @@ export default function Products({ lang, t, isRtl, galleryImages }: ProductsProp
           >
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent z-10" />
             <img 
-              src="https://vxedsjxzpekozeyhwbgg.supabase.co/storage/v1/object/public/gcport/WhatsApp%20Image%202026-07-03%20at%2002.56.31%20(2).jpeg" 
+              src="https://vxedsjxzpekozeyhwbgg.supabase.co/storage/v1/object/public/gcport/856a4ee2-ac4d-4d4d-a5b2-ccca92b87ec9.png" 
               alt="Floor Freshener" 
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
             />
