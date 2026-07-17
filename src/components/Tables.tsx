@@ -121,6 +121,8 @@ export default function Tables({ t }: TablesProps) {
                    <tr className="border-b border-white/10 bg-neutral-900/50">
                      <th className="py-4 px-6 font-semibold text-[#D4AF37] whitespace-nowrap text-right rtl:text-right ltr:text-left">{t.tables.priceList.headers[0]}</th>
                      <th className="py-4 px-6 font-semibold text-[#D4AF37] text-right rtl:text-right ltr:text-left">{t.tables.priceList.headers[1]}</th>
+                     <th className="py-4 px-6 font-semibold text-[#D4AF37] text-right rtl:text-right ltr:text-left">{t.tables.priceList.headers[2]}</th>
+                     <th className="py-4 px-6 font-semibold text-[#D4AF37] text-right rtl:text-right ltr:text-left">{t.tables.priceList.headers[3]}</th>
                    </tr>
                  </thead>
                  <tbody className="divide-y divide-white/5">
@@ -128,6 +130,8 @@ export default function Tables({ t }: TablesProps) {
                      <tr key={i} className="hover:bg-neutral-900/30 transition-colors">
                        <td className="py-4 px-6 text-white font-medium align-top whitespace-nowrap text-right rtl:text-right ltr:text-left">{row[0]}</td>
                        <td className="py-4 px-6 text-neutral-400 align-top text-right rtl:text-right ltr:text-left">{row[1]}</td>
+                       <td className="py-4 px-6 text-neutral-400 align-top text-right rtl:text-right ltr:text-left">{row[2]}</td>
+                       <td className="py-4 px-6 text-neutral-400 align-top text-right rtl:text-right ltr:text-left">{row[3]}</td>
                      </tr>
                    ))}
                  </tbody>

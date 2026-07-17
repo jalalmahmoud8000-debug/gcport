@@ -198,7 +198,7 @@ export const content = {
           desc: "Mandatory Arabic labels including manufacturer name & address, country of origin, product name, ingredients, net weight, expiration and production dates, storage instructions, etc. Packaging must also protect product integrity and consumer safety."
         },
         {
-          title: "Saudi Arabia (SASO/GSO)",
+          title: "Saudi Arabia (SASO/GCF)",
           desc: "Packaging must be tamper-evident and child-resistant if containing hazardous chemicals. Labels (in Arabic and optionally English) must list the product name, manufacturer/trademark, and safety instructions. Conformity with SASO technical regulation for detergents is required."
         },
         {
@@ -232,15 +232,18 @@ export const content = {
       },
       priceList: {
         title: "Price List",
-        headers: ["Product", "Price (SAR)"],
+        headers: ["Product Name", "Size/Pack", "Packs per Carton", "Carton Price"],
         rows: [
-          ["Citrus (American)", "840"],
-          ["Citrus (Egyptian)", "750"],
-          ["GC Air Freshener (Gulf)", "750"],
-          ["AQ Air Freshener (Gulf)", "480"],
-          ["Flora Floor Cleaner (500ml)", "420"],
-          ["GC Fabric Softener (3L)", "620"],
-          ["GC Fabric Softener (1L)", "690"]
+          ["Multi-Purpose Cleaner - GC", "1.25 L", "12", "940 EGP"],
+          ["American Clorox / Cetris", "1 L", "12", "890 EGP"], 
+          ["Detox Holy Mosque Disinfectant", "2 L", "6", "720 EGP"],
+          ["Fabric Softener - GC", "3 L", "4", "620 EGP"],
+          ["Fabric Softener - GC", "1 L", "12", "690 EGP"],
+          ["Fabric Softener - AQ", "2 L", "6", "480 EGP"],
+          ["Bedding, Curtain & Air Freshener - GC", "500 ml", "12", "840 EGP"],
+          ["Bedding & Air Freshener - Aq", "500 ml", "12", "540 EGP"],
+          ["Air Freshener - Flora", "500 ml", "12", "444 EGP"],
+          ["Multi-Purpose Floor Cleaner - Flora", "500 ml", "12", "540 EGP"],
         ]
       }
     },
@@ -256,7 +259,7 @@ export const content = {
       ]
     },
     footer: {
-      rights: "© 2024 GOLD CLEAN. All rights reserved."
+      rights: "© 2021 GOLD CLEAN. All rights reserved."
     }
   },
   ar: {
@@ -436,7 +439,7 @@ export const content = {
           desc: "ملصقات إلزامية باللغة العربية تتضمن اسم الشركة المصنعة وعنوانها، بلد المنشأ، اسم المنتج، المكونات، الوزن الصافي، تواريخ الإنتاج والانتهاء، تعليمات التخزين، إلخ. يجب أن تحمي التعبئة أيضًا سلامة المنتج وسلامة المستهلك."
         },
         {
-          title: "المملكة العربية السعودية (SASO/GSO)",
+          title: "المملكة العربية السعودية (SASO/GCF)",
           desc: "يجب أن تكون التعبئة مانعة للعبث ومقاومة للأطفال إذا كانت تحتوي على مواد كيميائية خطرة. يجب أن تدرج الملصقات (باللغة العربية واختياريًا باللغة الإنجليزية) اسم المنتج، والشركة المصنعة/العلامة التجارية، وتعليمات السلامة. التوافق مع اللائحة الفنية لـ SASO للمنظفات مطلوب."
         },
         {
@@ -470,15 +473,18 @@ export const content = {
       },
       priceList: {
         title: "قائمة الأسعار",
-        headers: ["المنتج", "السعر (ريال)"],
+        headers: ["اسم المنتج", "الحجم/العبوة", "عدد العبوات بالكرتونة", "سعر الكرتونة"],
         rows: [
-          ["سيترس (أمريكي)", "840"],
-          ["سيترس (مصري)", "750"],
-          ["معطر GC (خليجي)", "750"],
-          ["معطر AQ (خليجي)", "480"],
-          ["معطر أرضيات فلورا (500 مل)", "420"],
-          ["منعم ملابس GC (3 لتر)", "620"],
-          ["منعم ملابس GC (1 لتر)", "690"]
+          ["المزيل الشامل - GC", "1.25 لتر", "12", "940 ج.م"],
+          ["سيترس الأمريكي", "1 لتر", "12", "890 ج.م"],
+          ["ديتوكس مطهر الحرم", "2 لتر", "6", "720 ج.م"],
+          ["منعم ملابس - GC", "3 لتر", "4", "620 ج.م"],
+          ["منعم ملابس - GC", "1 لتر", "12", "690 ج.م"],
+          ["منعم ملابس - AQ", "2 لتر", "6", "480 ج.م"],
+          ["معطر مفروشات وستائر وجو - GC", "500 مللي", "12", "840 ج.م"],
+          ["معطر مفروشات وجو - Aq", "500 مللي", "12", "540 ج.م"],
+          ["معطر - Flora", "500 مللي", "12", "444 ج.م"],
+          ["معطر أرضيات متعدد الاستخدامات - Flora", "500 مللي", "12", "540 ج.م"],
         ]
       }
     },
@@ -494,7 +500,7 @@ export const content = {
       ]
     },
     footer: {
-      rights: "© 2024 جولد كلين. جميع الحقوق محفوظة."
+      rights: "© 2021 جولد كلين. جميع الحقوق محفوظة."
     }
   }
 };
